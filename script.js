@@ -16,7 +16,7 @@ const fetchRecipes = async (query) => {
 
     recipeContainer.innerHTML = "";
 
-    // Handle the response inside this function
+    // Handle the response
     response.meals.forEach(meal => {
         const recipeDiv = document.createElement('div');
         recipeDiv.classList.add('recipe');
